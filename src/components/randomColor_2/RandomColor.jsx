@@ -30,7 +30,7 @@ function RandomColor() {
       
       {/* LEFT TEXT */}
       <div
-        className=" text-4xl sm:text-6xl lg:text-8xl italic font-semibold transition duration-300 hover:scale-110"
+        className=" text-4xl sm:text-6xl lg:text-8xl italic font-semibold transition duration-300 hover:scale-90"
         style={{ color }}
       >
         {typeOfColor}
@@ -62,14 +62,14 @@ function RandomColor() {
               ? handleCreateRandomHexColor
               : handleCreateRandomRgbColor
           }
-          className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-52 sm:w-50 h-10 bg-black text-white rounded-3xl shadow-2xl font-semibold text-base sm:text-lg transition duration-300 hover:scale-90 ">
+          className="absolute bottom-[20%] left-1/2 -translate-x-1/2 w-52 sm:w-50 h-10 bg-black text-white rounded-3xl shadow-2xl font-semibold text-base sm:text-lg transition duration-300  hover:scale-90 ">
           Generate {typeOfColor} Color
         </button>
       </div>
 
       {/* RIGHT TEXT */}
       <h1
-        className=" text-3xl sm:text-5xl lg:text-8xl italic font-semibold transition duration-300 hover:scale-110"
+        className=" text-4xl sm:text-5xl lg:text-8xl italic font-semibold transition duration-300 hover:scale-90"
         style={{ color }}
       >
         {color}
