@@ -23,9 +23,9 @@ function QRCodeGenerator() {
     window.location.reload();
   }
   return (
-    <div className=" flex flex-col  items-center  bg-gray-200">
+    <div className=" flex flex-col  items-center h-screen w-full ">
 
-      <div className=" flex flex-col sm:flex-row justify-center items-center mt-10 gap-5 border p-5 rounded-2xl shadow-lg">
+      <div className=" flex flex-col sm:flex-row justify-center items-center mt-10 gap-5 border p-5 rounded-2xl shadow-lg bg-white">
         <input type="text" placeholder="Enter text to generate QR Code" value={input} onChange={(e => setInput(e.target.value))}
           className=" w-72 h-10 rounded-md p-4 border-2 focus:outline-none focus:ring-2 focus:ring-gray-500"
         />
